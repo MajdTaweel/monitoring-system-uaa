@@ -2,7 +2,7 @@
   "generator-jhipster": {
     "cacheProvider": "hazelcast",
     "serverPort": "9999",
-    "serviceDiscoveryType": "eureka",
+    "serviceDiscoveryType": "consul",
     "baseName": "uaa",
     "buildTool": "maven",
     "databaseType": "sql",

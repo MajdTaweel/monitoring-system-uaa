@@ -5,7 +5,7 @@ This application was generated using JHipster 6.10.3, you can find documentation
 This is a "uaa" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
 
 This is also a JHipster User Account and Authentication (UAA) Server, refer to [Using UAA for Microservice Security][] for details on how to secure JHipster microservices with OAuth2.
-This application is configured for Service Discovery and Configuration with the JHipster-Registry. On launch, it will refuse to start if it is not able to connect to the JHipster-Registry at [http://localhost:8761](http://localhost:8761). For more information, read our documentation on [Service Discovery and Configuration with the JHipster-Registry][].
+This application is configured for Service Discovery and Configuration with Consul. On launch, it will refuse to start if it is not able to connect to Consul at [http://localhost:8500](http://localhost:8500). For more information, read our documentation on [Service Discovery and Configuration with Consul][].
 
 ## Development
 
@@ -126,7 +126,7 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [doing microservices with jhipster]: https://www.jhipster.tech/documentation-archive/v6.10.3/microservices-architecture/
 
 [Using UAA for Microservice Security]: https://www.jhipster.tech/documentation-archive/v6.10.3/using-uaa/[Using JHipster in development]: https://www.jhipster.tech/documentation-archive/v6.10.3/development/
-[Service Discovery and Configuration with the JHipster-Registry]: https://www.jhipster.tech/documentation-archive/v6.10.3/microservices-architecture/#jhipster-registry
+[Service Discovery and Configuration with Consul]: https://www.jhipster.tech/documentation-archive/v6.10.3/microservices-architecture/#consul
 [Using Docker and Docker-Compose]: https://www.jhipster.tech/documentation-archive/v6.10.3/docker-compose
 [Using JHipster in production]: https://www.jhipster.tech/documentation-archive/v6.10.3/production/
 [Running tests page]: https://www.jhipster.tech/documentation-archive/v6.10.3/running-tests/
